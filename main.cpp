@@ -43,7 +43,7 @@ int binary_search(const std::vector<int>& array, int start, int end, int target)
  * @param search Valor entero que se busca
  * return void
  */
-void printArray(std::vector<int> data, int search) {
+void print_array(std::vector<int> data, int search) {
 
     std::sort(data.begin(), data.end());
 
