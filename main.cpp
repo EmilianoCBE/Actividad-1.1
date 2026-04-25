@@ -1,13 +1,13 @@
+/*
+ * Programa Divide y Vencerás con Búsqueda Binaria
+ * Copyright (C) 2026 Emiliano Carrizales Becerra A00824311
+ * Fecha: 21 de febrero del 2026
+ * * Este programa es para uso académico.
+ */
+
 #include <iostream>
 #include <vector>
 #include <algorithm>
-
-/*
- * Programa Divide y Vencerás con Búsqueda Binaria
- * Emiliano Carrizales Becerra A00824311
- * Fecha: 21 de febrero del 2026
- */
-
 
 /*
  * Función que busca un valor entero dentro de un arreglo en el índice en que se encuentra
