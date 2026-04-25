@@ -18,7 +18,7 @@
  * @param return Index donde se encuentra el entero o -1 si no se encuentra
  * Complejidad: O(log n)
  */
-int binarySearch(const std::vector<int>& array, int start, int end, int target) {
+int binary_search(const std::vector<int>& array, int start, int end, int target) {
 
     if (start > end) {
         return -1;
