@@ -73,7 +73,7 @@ void print_array(std::vector<int> data, int search) {
 
     std::cout << "Buscando: " << search << std::endl;
 
-    int result = binarySearch(data, 0, data.size() - 1, search);
+    int result = binary_search(data, 0, data.size() - 1, search);
 
     if (result != -1) {
         std::cout << "Número encontrado en índice: " << result << "\n";
@@ -85,16 +85,16 @@ void print_array(std::vector<int> data, int search) {
 int main() {
 
     std::cout << "\nPrimer caso \n";
-    printArray({8, 3, 10, -1, 6, 14, 4}, 6);
+    print_array({8, 3, 10, -1, 6, 14, 4}, 6);
 
     std::cout << "\nSegundo caso \n";
-    printArray({2, 4, 6, 8, 10}, 7);
+    print_array({2, 4, 6, 8, 10}, 7);
 
     std::cout << "\nTercer caso \n";
-    printArray({42}, 42);
+    print_array({42}, 42);
 
     std::cout << "\nCuarto caso \n";
-    printArray({5, 3, 7, 3, 9, 3, 1}, 7);
+    print_array({5, 3, 7, 3, 9, 3, 1}, 7);
 
     return 0;
 }
