@@ -1,12 +1,12 @@
+#include <iostream>
+#include <vector>
+#include <algorithm>
+
 /*
  * Programa Divide y Vencerás con Búsqueda Binaria
  * Emiliano Carrizales Becerra A00824311
  * Fecha: 21 de febrero del 2026
  */
-
-#include <iostream>
-#include <vector>
-#include <algorithm>
 
 
 /*
